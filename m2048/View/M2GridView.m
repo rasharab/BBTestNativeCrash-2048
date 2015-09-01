@@ -35,8 +35,11 @@
   UIView *backgroundView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   backgroundView.backgroundColor = [GSTATE backgroundColor];
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
     NSObject * object = [[NSObject alloc] init];
     [object performSelector:@selector(rgkjnjrstjshrtnogt)];
+    #pragma clang diagnostic pop
   
   M2GridView *view = [[M2GridView alloc] init];
   [backgroundView addSubview:view];
