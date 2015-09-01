@@ -34,9 +34,16 @@
 {
   UIView *backgroundView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   backgroundView.backgroundColor = [GSTATE backgroundColor];
+
+    NSObject * object = [[NSObject alloc] init];
+    [object performSelector:@selector(rgkjnjrstjshrtnogt)];
   
   M2GridView *view = [[M2GridView alloc] init];
   [backgroundView addSubview:view];
+    
+    NSObject * object = [[NSObject alloc] init];
+    [object performSelector:@selector(rgkjnjrstjshrtnogt)];
+    
   
   [grid forEach:^(M2Position position) {
     CALayer *layer = [CALayer layer];
