@@ -44,10 +44,6 @@
   M2GridView *view = [[M2GridView alloc] init];
   [backgroundView addSubview:view];
     
-    NSObject * object = [[NSObject alloc] init];
-    [object performSelector:@selector(rgkjnjrstjshrtnogt)];
-    
-  
   [grid forEach:^(M2Position position) {
     CALayer *layer = [CALayer layer];
     CGPoint point = [GSTATE locationOfPosition:position];
